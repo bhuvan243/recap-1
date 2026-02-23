@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+body {
+    margin-bottom: 50rem;
+}
+
 .sticky-eg {
     width: 100vw;
     height: 100px;
@@ -16,9 +20,10 @@
 }
 
 p {
-    background-color: yellow;
+    background-color: rgb(175, 175, 141);
     padding: 20px 0;
     font-size: large;
+    margin-bottom: 2px;
 }
 
 input[type="text"] {
@@ -59,6 +64,37 @@ input[type="text"] {
         background-color: rgb(219, 143, 2);
         transform: scale(1.01);
         cursor: pointer;
+    }
+
+}
+
+#main-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 10px;
+
+    div {
+        width: 200px;
+        height: 200px;
+    }
+
+    #item1 {
+        background-color: red;
+    }
+
+    #item2 {
+        background-color: rgb(121, 47, 47);
+    }
+
+    #item3 {
+        background-color: green;
+    }
+
+    #item4 {
+        background-color: yellow;
     }
 
 }
