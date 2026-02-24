@@ -107,3 +107,17 @@ input[type="text"] {
     }
 
 }
+
+/* Example for media queries */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+    .box {
+        background-color: blue;
+        width: 100%;
+    }
+}
