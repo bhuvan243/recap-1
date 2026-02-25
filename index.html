@@ -5,67 +5,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recap Practice</title>
-    <link rel="stylesheet" href="./styles2.css">
+    <!-- <link rel="stylesheet" href="./styles2.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link " aria-current="page" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link " aria-current="page" href="#">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+
             </div>
         </div>
     </nav>
-    <div>Hello</div>
 
-    <button type="button" class="btn btn-info">Button</button>
-    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <section class="bg-primary text-white p-3 p-md-5 text-center">
+        <h1 class="display-4 display-md-3 fw-normal">Welcome to My portfolio</h1>
+        <p class="fw-lighter fs-5 fs-md-3">I showcase my projeects and skills here.</p>
+    </section>
 
-    <p class="bg-primary text-light ps-2 pt-5 pb-5 mt-4 fs-3 h-50 w-50 rounded shadow-lg ">My name is Bhuvaneshwaran
-    </p>
+    <!-- About Me -->
+    <section class="container my-5">
+        <h2 class="text-center pb-3">About Me</h2>
+        <div class="row">
+            <img class="col-md-6"
+                src="https://plus.unsplash.com/premium_photo-1678566153919-86c4ba4216f1?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Coder">
+            <p class="mt-sm-3 col-md-6 fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quod
+                accusantium
+                tempora
+                suscipit
+                facilis! Fugiat iusto aliquid pariatur nisi sapiente alias qui, aut quis, inventore voluptatibus dicta
+                distinctio totam quaerat dignissimos incidunt natus atque illo rerum autem voluptate perferendis
+                laudantium.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium minima iure molestiae temporibus
+                soluta voluptates tempore laudantium odit. Harum dolore ducimus, consectetur qui aliquid impedit
+                corrupti autem odit facere expedita? Nesciunt esse non facere numquam consectetur iusto ullam, modi rem
+                sint, omnis repellendus excepturi obcaecati quam repudiandae autem illum. Numquam?
+            </p>
+        </div>
+    </section>
 
+    <!-- Portfolio cards -->
+    <section class="bg-light container py-5">
+        <h2 class="text-center pb-3"> Portfolio</h2>
+        <div name="card-section" class="row">
+            <div class="card col-sm-12 mt-sm-3 col-md-4">
+                <img src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Laptop">
+                <div class="card-body">
+                    <h3>Project 1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+            </div>
+            <div class="card col-sm-12 mt-sm-3 col-md-4">
+                <img src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Laptop">
+                <div class="card-body">
+                    <h3>Project 2</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+            </div>
+            <div class="card col-sm-12 mt-sm-3 col-md-4">
+                <img src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Laptop">
+                <div class="card-body">
+                    <h3>Project 3</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn btn-primary">Learn more</button>
+                </div>
+            </div>
 
+        </div>
+    </section>
 
+    <!-- Contact us -->
+    <section id="form-container" class="conatiner py-5">
+        <h2 class="text-center pb-3"> Contact Us</h2>
+        <div class="row">
+            <div class="px-5 col-md-6 mx-auto d-flex flex-column align-items-center">
+                <label for="name" class="form-label mt-3 text-start w-100">Name</label>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Enter your name">
+                <label for="email" class="form-label mt-3 text-start w-100">Email</label>
+                <input type="text" id="email" class="form-control" name="email" placeholder="Enter your Email">
+                <label for="message" class="form-label mt-3 text-start w-100">Message</label>
+                <textarea id="message" class="form-control" name="message" rows="5"
+                    placeholder="Please drop your message!"></textarea>
+                <button class="btn btn-primary mt-3 w-50">Submit</button>
+            </div>
+        </div>
+    </section>
 
-
-
-
+    <footer class="bg-dark text-light text-center py-3">
+        © 2026 My Portfolio. All Rights Reserved
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
