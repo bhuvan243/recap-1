@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 1s linear 0s;
+}
+
+.box:hover {
+    background-color: red;
+    height: 200px;
+}
+
+button {
+    margin-top: 30px;
+}
+button:hover{
+    transform: scale(1.5, 1.51);
+}
